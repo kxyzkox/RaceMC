@@ -1,24 +1,40 @@
 <html>
 <head>
-  <title>WGT-SITE ~~ Blog</title>
+  <title>kxyzunio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 <center>
-<img src="images/blog.png" alt="bloglogo">
+<img src="https://r70.cooltext.com/rendered/cooltext408469944676910.gif" alt="logo">
 <center/>
 <p>
-<a href="index.html">Strona Glowna</a>
-<a href="1.html">1</a>
-<a href="2.html">2</a>
-<a href="3.html">3</a>
+<a href="index.html">Strona Glowna |  </a>
+<a href="1.html">Chat |  </a>
+<a href="2.html">2 |  </a>
+<a href="3.html">3 |  </a>
 <a href="4.html">4</a>
 <p/>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	
+    <title> kxyzunio chat </title>
+    <!-- Google fonts. -->
+    <link href='https://fonts.googleapis.com/css?family=Bungjee Outline' rel='stylesheet'/>
+    <link href='https://fonts.googleapis.com/css?family=Varejla Round' rel='stylesheet'/>
+    <!-- Use font awesome icons. -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Use firebase app and database. -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
 
-<p>
-<h3>nic bo jeszcze nic tu nie robilem<h3/>
-<p/>
-</body>
+    <!-- The CSS and JS file must be declared after the things above-->
+    <link rel="stylesheet" href="index.css"/>
+    <script type="text/javascript" src="index.js"></script>
+
+  </head>
+  <body>
+  </body>
 
 </html>
