@@ -1,2 +1,1 @@
-# strona kxyzunia
-tak :)
+# WGT-Website
