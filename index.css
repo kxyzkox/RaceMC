@@ -24,8 +24,12 @@ body{
   align-items: center;
 
   background-color: #ffffff;/*#467599;*/
+  
+  <picture>
+  <img src="https://images.cooltext.com/5595476.gif" alt="cannot display">
+ </picture>
   border-bottom: 5px solid #fff;
-  box-shadow: 0 0 30px -18px #063970;
+  box-shadow: 0 0 30px -18px #ffffff;
 
 }
 #title_inner_container{
@@ -169,7 +173,7 @@ body{
   color: #ccc;
 }
 #chat_input_send.enabled{
-  color: #063970;
+  color: #ff0000;
   background-color: Transparent;
   cursor: pointer;
 
@@ -186,7 +190,7 @@ body{
   margin-top: 20px;
 }
 #chat_logout{
-  color: #063970;
+  color: #ff0000;
   cursor: pointer;
 }
 #chat_logout:hover{
@@ -228,7 +232,7 @@ body{
 .enabled{
   transition: background-color 0.5s;
   color: #fff;
-  background-color: #063970; /*#5B7553;*/
+  background-color: #ff0000; /*#5B7553;*/
   cursor: pointer;
 }
 #title_container.chat_title_container{
@@ -254,7 +258,7 @@ body{
   height: 40px;
   animation: spin 1s linear infinite;
 
-  border-top: 6px solid #063970;
+  border-top: 6px solid #ff0000;
   border-bottom: 6px solid #1D3354;
   border-left: 6px solid #E9FFF9;
   border-right: 6px solid #E9FFF9;
@@ -273,7 +277,7 @@ body{
   100% {}
 }
 ::selection {
-  background-color: #063970;
+  background-color: #ff0000;
   color: #fff;
 }
 /* width */
@@ -286,6 +290,6 @@ body{
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #063970;
+  background: #ff0000;
   border-radius: 5px;
 }

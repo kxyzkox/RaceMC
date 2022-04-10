@@ -10,7 +10,7 @@ window.onload = function() {
   storageBucket: "kxyzunio-chat.appspot.com",
   messagingSenderId: "113195578447",
   appId: "1:113195578447:web:829b8d147a663f8eec263a"
-};
+  };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   // This is very IMPORTANT!! We're going to use "db" a lot.
@@ -40,7 +40,7 @@ window.onload = function() {
 
       var title = document.createElement('h1')
       title.setAttribute('id', 'title')
-      title.textContent = ''
+      title.textContent = 'MemeChat 2.0'
 
       title_inner_container.append(title)
       title_container.append(title_inner_container)
@@ -68,8 +68,8 @@ window.onload = function() {
 
       var join_input = document.createElement('input')
       join_input.setAttribute('id', 'join_input')
-      join_input.setAttribute('maxlength', 100)
-      join_input.placeholder = 'Wpisz tu swoj nick'
+      join_input.setAttribute('maxlength', 15)
+      join_input.placeholder = 'Wpisz tu swoj nick.'
       // Every time we type into the join_input
       join_input.onkeyup  = function(){
         // If the input we have is longer that 0 letters
@@ -147,14 +147,13 @@ window.onload = function() {
       chat_input_send.setAttribute('id', 'chat_input_send')
       chat_input_send.setAttribute('disabled', true)
       chat_input_send.innerHTML = `<img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2013/240/iconmonstr-paper-plane-1.png" alt="iconforsendingaaa" width="30" height="30"></i>`
-	  
 
       var chat_input = document.createElement('input')
       chat_input.setAttribute('id', 'chat_input')
       // Only a max message length of 1000
-      chat_input.setAttribute('maxlength', 100)
+      chat_input.setAttribute('maxlength', 1000)
       // Get the name of the user
-      chat_input.placeholder = `${parent.get_name()}. Powiedz cos...`
+      chat_input.placeholder = `${parent.get_name()}. Say something...`
       chat_input.onkeyup  = function(){
         if(chat_input.value.length > 0){
           chat_input_send.removeAttribute('disabled')
@@ -184,7 +183,7 @@ window.onload = function() {
 
       var chat_logout = document.createElement('button')
       chat_logout.setAttribute('id', 'chat_logout')
-      chat_logout.textContent = `${parent.get_name()} • wyloguj sie`
+      chat_logout.textContent = `${parent.get_name()} • logout`
       // "Logout" is really just deleting the name from the localStorage
       chat_logout.onclick = function(){
         localStorage.clear()
